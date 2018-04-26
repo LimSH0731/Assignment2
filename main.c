@@ -6,6 +6,8 @@
 
 struct stat stat1, stat2;
 struct tm *time1, *time2;
+struct tm temp;
+
 
 void filestat1(void);
 void filestat2(void);
