@@ -75,9 +75,9 @@ void sizecmp(void)
 void blockcmp(void)
 {
 	printf("block compare\n");
-	if(stat1.st_blksize>stat2.st_blksize)
+	if(stat1.st_blocks>stat2.st_blocks)
 		printf("text1 is bigger.\n");
-	else if(stat1.st_blksize<stat2.st_blksize)
+	else if(stat1.st_blocks<stat2.st_blocks)
 		printf("text2 is bigger.\n");
 	else
 		printf("sizes are equal.\n");
